@@ -1,8 +1,40 @@
 #about {
     font-size: 75px;
     text-align: center;
+    color: black;
 }
-.jumbotron {
-    background-color: transparent;
-     
+
+
+.bg {
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./images/desktop.JPG");
+    background-size: cover; 
+    opacity: 0.4;
 }
+
+.myDiv {
+    position: relative;
+    z-index: 1;
+}
+
+.col-md-3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#background {
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    left: 0px; 
+    top: 0px; 
+    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+}
+
+.stretch {
+    width:100%;
+    height:100%;
+}
+
+
